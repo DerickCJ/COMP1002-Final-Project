@@ -4,10 +4,10 @@
 document.getElementById("logo").innerHTML = `<img src="./images/logo.png" alt="logo">`;
 
 document.getElementById("menu").innerHTML = `
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Product</a></li>
+      <li><a href="1.Home.html">Home</a></li>
+      <li><a href="2.Product.html">Product</a></li>
       <li><a href="#">About us</a></li>
-      <li><a href="#">Contact Us</a></li>`;
+      <li><a href="contact.html">Contact Us</a></li>`;
 
 document.getElementById("login").innerHTML = `
       <a href="#">Login</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">Register</a>`;
