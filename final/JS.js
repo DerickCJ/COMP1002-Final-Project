@@ -6,7 +6,7 @@ document.getElementById("logo").innerHTML = `<img src="./images/logo.png" alt="l
 document.getElementById("menu").innerHTML = `
       <li><a href="1.Home.html">Home</a></li>
       <li><a href="2.Product.html">Product</a></li>
-      <li><a href="#">About us</a></li>
+      <li><a href="About-Us.html">About us</a></li>
       <li><a href="contact.html">Contact Us</a></li>`;
 
 document.getElementById("login").innerHTML = `
