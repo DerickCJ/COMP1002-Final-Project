@@ -5,19 +5,26 @@ const mainFooter = document.querySelector('#footer-section');
 
 mainHeader.innerHTML = `
     <div class="logo">
-      <a href="#">
+      <a href="1.Home.html">
       <img src="./images/logo.png" alt="logo" class="iconLogo">
       </a>
       <p>Route Dial</p>      
     </div>
-    <nav>
+    <nav>   
+      <div class="button">
+        <div class="burger"></div>
+        <div class="burger"></div>
+        <div class="burger"></div>
+      </div>
       <ul class="menu" id="menu">
         <li><a href="1.Home.html">Home</a></li>
         <li><a href="2.Product.html">Product</a></li>
         <li><a href="About-Us.html">About us</a></li>
         <li><a href="contact.html">Contact Us</a></li>
       </ul>
+      
     </nav>
+    
     <div class="login" id="login">
       <a href="#">Login</a>
       &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -91,7 +98,7 @@ function nextImage() {
   if (count >= 2) {
     count = 0;
   }
-  image.style.transform = `translateX(${- count * 100}%)`;
+  image.style.transform = `translateX(${- count * 100}vw)`;
 }
 
 setInterval(nextImage, 3500);

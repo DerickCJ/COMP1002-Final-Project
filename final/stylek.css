@@ -39,6 +39,11 @@ h2 {
   margin-top: 20px;
 }
 
+#who-we-are,
+#mission {
+  padding-top: 25px;
+}
+
 .flexible-picture {
   width: 30%;
   /* Adjust this value as needed */
