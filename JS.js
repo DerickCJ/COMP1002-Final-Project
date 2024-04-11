@@ -5,7 +5,7 @@ const mainFooter = document.querySelector('#footer-section');
 
 mainHeader.innerHTML = `
     <div class="logo">
-      <a href="1.Home.html">
+      <a href="index.html">
       <img src="./images/logo.png" alt="logo" class="iconLogo">
       </a>
       <p>Route Dial</p>      
@@ -17,7 +17,7 @@ mainHeader.innerHTML = `
         <div class="burger"></div>
       </div>
       <ul class="menu" id="menu">
-        <li><a href="1.Home.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="2.Product.html">Product</a></li>
         <li><a href="About-Us.html">About us</a></li>
         <li><a href="contact.html">Contact Us</a></li>
