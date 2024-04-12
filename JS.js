@@ -81,13 +81,15 @@ mainFooter.innerHTML = `
 
 
 // Navigation color change function
-window.onscroll = function () {
+window.addEventListener('scroll', function () {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     mainHeader.style.backgroundColor = "rgba(0, 0, 0, 0.85)";
   } else {
     mainHeader.style.backgroundColor = "rgba(0, 0, 0, 0)";
   }
-};
+});
+
+
 
 // Images slideshow function
 let count = 0;
